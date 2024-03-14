@@ -12,8 +12,9 @@ section {
   display: flex;
   align-items: center;
   width: 600px;
-  height: 400px;
+  height: 420px;
   background: linear-gradient(350deg, rgb(6, 61, 157), rgb(168, 13, 90));
+  overflow-x: scroll;
 }
 
 .slider {
@@ -31,12 +32,6 @@ section {
   border: 1px solid black;
 }
 
-#pregunta3 {
-  display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 4;
-}
-
 .botones_container {
   display: flex;
   width: 50%;
@@ -51,4 +46,32 @@ section {
 
 #flecha1 {
   transform: scalex(-1);
+}
+
+/* Cada Pregunta */
+
+#pregunta1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#pregunta2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.p2-radio-cont {
+  display: flex;
+  gap: 1rem;
+}
+
+#pregunta3 {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 4;
 }

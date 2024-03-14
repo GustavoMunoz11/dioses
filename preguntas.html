@@ -15,20 +15,29 @@
         <div id="slider_container">
           <form class="slider">
             <div id="pregunta1">
-              <p>1. ¿como te llamas?</p>
-              <label for="p1"></label>
+              <label for="p1">1. ¿como te llamas?</label>
               <input type="text" id="Q1" name="Q1" />
             </div>
             <div id="pregunta2">
               <p>2. ¿con cual de estos valores te identificas mas?</p>
-              <input type="radio" id="p1r1" name="p1" value="1" />
-              <label for="p1r1">Poder</label>
-              <input type="radio" id="p1r2" name="p1" value="2" />
-              <label for="p1r2">Justicia</label>
-              <input type="radio" id="p1r3" name="p1" value="3" />
-              <label for="p1r3">Protección</label>
-              <input type="radio" id="p1r4" name="p1" value="4" />
-              <label for="p1r4">Belleza</label>
+              <div class="p2-radio-cont">
+                <div>
+                  <input type="radio" id="p1r1" name="p1" value="1" />
+                  <label for="p1r1">Poder</label>
+                </div>
+                <div>
+                  <input type="radio" id="p1r2" name="p1" value="2" />
+                  <label for="p1r2">Justicia</label>
+                </div>
+                <div>
+                  <input type="radio" id="p1r3" name="p1" value="3" />
+                  <label for="p1r3">Protección</label>
+                </div>
+                <div>
+                  <input type="radio" id="p1r4" name="p1" value="4" />
+                  <label for="p1r4">Belleza</label>
+                </div>
+              </div>
             </div>
             <div id="pregunta3">
               <p>
@@ -36,60 +45,93 @@
                 describen mejor?
               </p>
 
-              <input type="checkbox" id="p3r1" name="p3" value="1" />
-              <label for="p3r1"
-                >"soy amoroso pero a veces me cuesta perdonar"</label
-              >
+              <div>
+                <input type="checkbox" id="p3r1" name="p3" value="1" />
+                <label for="p3r1"
+                  >"soy amoroso pero a veces me cuesta perdonar"</label
+                >
+              </div>
 
-              <input type="checkbox" id="p3r2" name="p3" value="2" />
-              <label for="p3r2"
-                >"soy sabio pero a veces me dejo llevar por la
-                impulsividad"</label
-              >
-              <input type="checkbox" id="p3r3" name="p3" value="3" />
-              <label for="p3r3"
-                >"soy leal pero a veces me cuesta confiar en los demas"</label
-              >
-              <input type="checkbox" id="p3r4" name="p3" value="4" />
-              <label for="p3r4"
-                >"soy astuto pero a veces mis planes me salen mal"</label
-              >
-              <input type="checkbox" id="p3r5" name="p3" value="5" />
-              <label for="p3r5"
-                >"soy justo pero a veces me dejo llevar por la venganza"</label
-              >
-              <input type="checkbox" id="p3r6" name="p3" value="6" />
-              <label for="p3r6"
-                >"soy curioso pero a veces mi curiosidad me mete en
-                problemas"</label
-              >
-              <input type="checkbox" id="p3r7" name="p3" value="7" />
-              <label for="p3r7"
-                >"soy protector pero a veces me vuelvo demasiado
-                posesivo"</label
-              >
-              <input type="checkbox" id="p3r8" name="p3" value="8" />
-              <label for="p3r8"
-                >"soy generoso pero a veces me olvido de cuidar de mi
-                mismo"</label
-              >
+              <div>
+                <input type="checkbox" id="p3r2" name="p3" value="2" />
+                <label for="p3r2"
+                  >"soy sabio pero a veces me dejo llevar por la
+                  impulsividad"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r3" name="p3" value="3" />
+                <label for="p3r3"
+                  >"soy leal pero a veces me cuesta confiar en los demas"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r4" name="p3" value="4" />
+                <label for="p3r4"
+                  >"soy astuto pero a veces mis planes me salen mal"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r5" name="p3" value="5" />
+                <label for="p3r5"
+                  >"soy justo pero a veces me dejo llevar por la
+                  venganza"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r6" name="p3" value="6" />
+                <label for="p3r6"
+                  >"soy curioso pero a veces mi curiosidad me mete en
+                  problemas"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r7" name="p3" value="7" />
+                <label for="p3r7"
+                  >"soy protector pero a veces me vuelvo demasiado
+                  posesivo"</label
+                >
+              </div>
+
+              <div>
+                <input type="checkbox" id="p3r8" name="p3" value="8" />
+                <label for="p3r8"
+                  >"soy generoso pero a veces me olvido de cuidar de mi
+                  mismo"</label
+                >
+              </div>
             </div>
             <div id="pregunta4"></div>
             <div id="pregunta5"></div>
             <div id="pregunta6">
               <p>6. ¿con cual de estos valores te identificas mas?</p>
-              <input type="radio" id="p6r1" name="p6" value="1" />
-              <label for="p1r1">el lider que toma desiciones</label>
-              <input type="radio" id="p6r2" name="p6" value="2" />
-              <label for="p1r2">el alma de la fiesta</label>
-              <input type="radio" id="p6r3" name="p6" value="3" />
-              <label for="p1r3">el consejero que escucha a los demas</label>
-              <input type="radio" id="p6r4" name="p6" value="4" />
-              <label for="p1r4"
-                >el observador que analiza las interacciones</label
-              >
-              <input type="radio" id="p6r5" name="p6" value="5" />
-              <label for="p1r4">el que interactua hasta con el perro</label>
+              <div>
+                <input type="radio" id="p6r1" name="p6" value="1" />
+                <label for="p1r1">el lider que toma desiciones</label>
+              </div>
+              <div>
+                <input type="radio" id="p6r2" name="p6" value="2" />
+                <label for="p1r2">el alma de la fiesta</label>
+              </div>
+              <div>
+                <input type="radio" id="p6r3" name="p6" value="3" />
+                <label for="p1r3">el consejero que escucha a los demas</label>
+              </div>
+              <div>
+                <input type="radio" id="p6r4" name="p6" value="4" />
+                <label for="p1r4"
+                  >el observador que analiza las interacciones</label
+                >
+              </div>
+              <div>
+                <input type="radio" id="p6r5" name="p6" value="5" />
+                <label for="p1r4">el que interactua hasta con el perro</label>
+              </div>
             </div>
           </form>
         </div>
