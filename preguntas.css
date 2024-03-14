@@ -1,0 +1,54 @@
+section {
+  background-image: url("./img/img_fondo_dioses.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+#slider_container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(350deg, rgb(6, 61, 157), rgb(168, 13, 90));
+}
+
+.slider {
+  display: flex;
+  border: 2px solid rgb(101, 30, 148);
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider > div {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+#pregunta3 {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 4;
+}
+
+.botones_container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.botones_container > img {
+  width: 150px;
+  height: 70px;
+  border: 0px;
+}
+
+#flecha1 {
+  transform: scalex(-1);
+}
