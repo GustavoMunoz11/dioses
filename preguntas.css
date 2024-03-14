@@ -1,4 +1,4 @@
-section {
+.questions_container {
   background-image: url("./img/img_fondo_dioses.jpg");
   height: 100vh;
   display: flex;
@@ -6,6 +6,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 13px;
+  font-size: 1.2rem;
 }
 
 #slider_container {
@@ -21,7 +22,6 @@ section {
   display: flex;
   border: 2px solid rgb(101, 30, 148);
   color: white;
-  font-size: 1.5rem;
   justify-content: center;
   align-items: center;
 }
@@ -55,6 +55,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
 #pregunta2 {
@@ -71,7 +72,48 @@ section {
 }
 
 #pregunta3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p3_container {
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 4;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1.5rem;
+  top: 30px;
+}
+
+#pregunta4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.range_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+#pregunta6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p6_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding-top: 30px;
+  padding-left: 40px;
 }
