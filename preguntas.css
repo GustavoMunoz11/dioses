@@ -112,8 +112,15 @@
 .img_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 190px);
 }
 
+.img_container input {
+  position: absolute;
+  z-index: 99;
+  top: 5px;
+  left: 5px;
+}
 #pregunta6 {
   display: flex;
   align-items: center;

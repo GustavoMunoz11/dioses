@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="preguntas.css" />
     <script defer src="form.js"></script>
+    <script defer src="slider.js"></script>
   </head>
   <body>
     <header></header>
@@ -120,10 +121,30 @@
             <div id="pregunta5">
               <p>5. ¿que tipo de ambiente prefieres para relajarte?</p>
               <div class="img_container">
-                <div><img src="./img/prado.jpg" alt="" /></div>
-                <div><img src="./img/fiesta.jpg" alt="" /></div>
-                <div><img src="./img/cabaña.png" alt="" /></div>
-                <div><img src="./img/lugar_vista_al_mar.jpg" alt="" /></div>
+                <div>
+                  <label for="p7r1">
+                    <input type="radio" id="p7r1" name="p7" value="1" />
+                    <img src="./img/prado.jpg" alt="" />
+                  </label>
+                </div>
+                <div>
+                  <label for="p7r2">
+                    <input type="radio" id="p7r2" name="p7" value="2" />
+                    <img src="./img/fiesta.jpg" alt="" />
+                  </label>
+                </div>
+                <div>
+                  <label for="p7r3">
+                    <input type="radio" id="p7r3" name="p7" value="3" />
+                    <img src="./img/cabaña.png" alt="" />
+                  </label>
+                </div>
+                <div>
+                  <label for="p7r4">
+                    <input type="radio" id="p7r4" name="p7" value="4" />
+                    <img src="./img/lugar_vista_al_mar.jpg" alt="" />
+                  </label>
+                </div>
               </div>
             </div>
             <div id="pregunta6">
@@ -155,6 +176,9 @@
                   <label for="p1r4">el que interactua hasta con el perro</label>
                 </div>
               </div>
+            </div>
+            <div class="send_container">
+              <input type="submit" value="Enviar" />
             </div>
           </form>
         </div>
