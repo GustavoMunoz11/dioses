@@ -109,6 +109,11 @@
   gap: 1rem;
 }
 
+.img_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 #pregunta6 {
   display: flex;
   align-items: center;
