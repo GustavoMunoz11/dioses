@@ -19,3 +19,10 @@ function handleClickBack() {
   console.log(position);
   slider.style.transform = `translateX(-${position}px)`;
 }
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Tab") {
+    event.preventDefault(); // Prevent default tab behavior
+    handleClickForward();
+  }
+});
